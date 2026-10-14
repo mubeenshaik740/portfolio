@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mubeen Shaik | Java Developer Intern &amp; Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Mubeen Shaik - Java Developer Intern skilled in Java, Spring Boot, RESTful APIs, Hibernate JPA, PostgreSQL, MySQL, and layered enterprise architecture.">
+  <meta name="keywords" content="Mubeen Shaik, Java Developer Intern, Java Developer, Spring Boot, Backend Developer, Full Stack Developer, Hibernate JPA, PostgreSQL, MySQL, REST API, JUnit, Postman">
+  <meta name="author" content="Mubeen Shaik">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Mubeen Shaik | Java Developer Intern &amp; Full Stack Developer">
+  <meta property="og:description" content="Explore projects, skills, and experience of Mubeen Shaik, building scalable Spring Boot and Java backend applications.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+  <!-- Background Glow Accents -->
+  <div class="glow-orb orb-1" aria-hidden="true"></div>
+  <div class="glow-orb orb-2" aria-hidden="true"></div>
+  <div class="glow-orb orb-3" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container" id="navbar">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Mubeen</span>
+        <span class="logo-accent">.dev</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#terminal" class="nav-link">API Playground</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="btn-icon" aria-label="Toggle Dark/Light Mode" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="12" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <a href="assets/Mubeen_Shaik_Resume.pdf" download="Mubeen_Shaik_Resume.pdf" class="btn btn-outline btn-sm">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Resume</span>
+        </a>
+
+        <button id="mobileMenuBtn" class="mobile-toggle btn-icon" aria-label="Toggle Mobile Navigation">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section container">
+      <div class="hero-content">
+        <div class="badge-status">
+          <span class="pulse-dot"></span>
+          <span>Open to Full-Time Java Developer / Backend Roles</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient">Mubeen Shaik</span>
+        </h1>
+
+        <div class="hero-subtitle">
+          <span class="role-prefix">I architect &amp; build: </span>
+          <span id="typedRole" class="typed-text"></span>
+          <span class="cursor">&nbsp;</span>
+        </div>
+
+        <p class="hero-description">
+          B.Tech Computer Science graduate skilled in <strong>Java Full Stack Development</strong> (Java, Spring Boot, SQL, REST APIs), 
+          with hands-on experience building a <strong>Hospital Management System</strong> and <strong>Flight Reservation Management System</strong>. 
+          Strong in OOPs and <strong>problem-solving</strong>, with a passion for <strong>scalable</strong> software solutions.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#terminal" class="btn btn-secondary">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+            <span>Live API Console</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Let's Connect</span>
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/mubeen-shaik-a02717275" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="mailto:mdmubeenmubeen740@gmail.com" class="social-link" title="Send Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>mdmubeenmubeen740@gmail.com</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="code-card">
+          <div class="code-card-header">
+            <div class="code-card-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="code-card-title">MubeenDeveloper.java</div>
+            <div class="code-card-lang">Spring Boot</div>
+          </div>
+          <div class="code-card-body">
+            <pre><code><span class="kwd">@RestController</span>
+<span class="kwd">@RequestMapping</span>(<span class="str">"/api/v1/engineer"</span>)
+<span class="kwd">public class</span> <span class="cls">MubeenShaik</span> {
+
+    <span class="kwd">@Autowired</span>
+    <span class="kwd">private</span> <span class="cls">FullStackService</span> <span class="var">devService</span>;
+
+    <span class="kwd">@GetMapping</span>(<span class="str">"/profile"</span>)
+    <span class="kwd">public</span> <span class="cls">ResponseEntity</span>&lt;<span class="cls">ProfileDTO</span>&gt; <span class="fn">getProfile</span>() {
+        <span class="kwd">return</span> <span class="cls">ResponseEntity</span>.<span class="fn">ok</span>(
+            <span class="cls">ProfileDTO</span>.<span class="fn">builder</span>()
+                .<span class="fn">name</span>(<span class="str">"Mubeen Shaik"</span>)
+                .<span class="fn">degree</span>(<span class="str">"B.Tech Computer Science"</span>)
+                .<span class="fn">primaryStack</span>(<span class="cls">List</span>.<span class="fn">of</span>(
+                    <span class="str">"Java"</span>, <span class="str">"Spring Boot"</span>, 
+                    <span class="str">"Hibernate JPA"</span>, <span class="str">"PostgreSQL"</span>, 
+                    <span class="str">"REST APIs"</span>
+                ))
+                .<span class="fn">status</span>(<span class="str">"READY_TO_DEPLOY"</span>)
+                .<span class="fn">build</span>()
+        );
+    }
+}</code></pre>
+          </div>
+          <div class="code-card-footer">
+            <span class="badge-tech">Build: SUCCESS</span>
+            <span class="badge-tech">Tests: 100% Passed</span>
+            <span class="badge-tech">Security: RBAC Active</span>
+          </div>
+        </div>
+
+        <div class="avatar-floating-card">
+          <div class="avatar-img-wrap">
+            <img src="assets/profile.jpg" alt="Mubeen Shaik" onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'50\' fill=\'%236366f1\'/><text x=\'50\' y=\'60\' font-size=\'36\' font-weight=\'bold\' fill=\'white\' text-anchor=\'middle\'>MS</text></svg>';">
+          </div>
+          <div class="avatar-info">
+            <div class="avatar-name">Mubeen Shaik</div>
+            <div class="avatar-role">Software Developer Intern</div>
+            <div class="avatar-location">📍 Bangalore, Karnataka, India</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Metrics Stats Banner -->
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-target="45">45+</div>
+          <div class="stat-label">RESTful Endpoints Engineered</div>
+          <div class="stat-sub">Across Microservices &amp; Systems</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="40">40%</div>
+          <div class="stat-label">Query Latency Reduced</div>
+          <div class="stat-sub">PostgreSQL &amp; MySQL Indexing</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="90">90%</div>
+          <div class="stat-label">Booking Errors Prevented</div>
+          <div class="stat-sub">Layered Validation &amp; Constraints</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="100">100%</div>
+          <div class="stat-label">Data Transaction Consistency</div>
+          <div class="stat-sub">ACID Compliance with Spring JPA</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section container section-padding">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Architecting Robust, High-Performance Systems</h2>
+        <p class="section-subtitle">Bridging strong academic foundations with production-grade backend engineering.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-story">
+          <p class="lead-text">
+            I am a passionate <strong>Software Developer Intern &amp; Java Full Stack Developer</strong> with a Bachelor of Technology in 
+            Computer Science and Engineering (2022–2025) from <em>Khaja Bandanawaz University, Kalaburgi</em>, preceded by a comprehensive 
+            Diploma from <em>H.K.E Polytechnic Society</em> and schooling at <em>Deccan Rose English Medium School</em>.
+          </p>
+          <p>
+            During my internship as a <strong>Java Development Intern</strong> at <strong>Cognifyz IT Solutions Pvt. Ltd.</strong> (Remote, Aug 2026 – Sep 2026), 
+            I architected layered <strong>Spring Boot</strong> microservices and RESTful APIs, implemented secure authentication/authorization, 
+            and improved test coverage by <strong>30%</strong> with JUnit and Postman. Previously as a <strong>Java Backend Developer Intern</strong> at 
+            <strong>ITechcron Software Solutions</strong> in Hyderabad, I developed high-performance REST APIs and optimized complex SQL queries and database interactions across MySQL and PostgreSQL.
+          </p>
+          <p>
+            My technical toolkit encompasses <strong>Java (Core &amp; Advanced), SQL, Python, Spring Boot, Hibernate JPA, Spring Security, and REST APIs</strong>. 
+            I emphasize clean OOP design patterns, deterministic transactional data consistency, and proactive unit testing.
+          </p>
+
+          <div class="language-chips">
+            <span class="lang-title">Spoken Languages:</span>
+            <span class="pill">English (Professional)</span>
+            <span class="pill">Hindi (Fluent)</span>
+            <span class="pill">Kannada (Native)</span>
+            <span class="pill">Telugu (Conversational)</span>
+          </div>
+
+          <div class="about-actions">
+            <a href="#contact" class="btn btn-primary">Work With Me</a>
+            <a href="assets/Mubeen_Shaik_Resume.pdf" download class="btn btn-outline">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download CV (PDF)</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="about-cards-col">
+          <div class="feature-card">
+            <div class="feature-icon">⚙️</div>
+            <h3>Enterprise Java &amp; Spring Boot</h3>
+            <p>Building layered microservices with Spring Boot 3, Dependency Injection, `@Transactional` boundaries, and `@RestControllerAdvice` global exception handling.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🗄️</div>
+            <h3>Database Optimization &amp; JPA</h3>
+            <p>Designing normalized 3NF relational schemas in MySQL &amp; PostgreSQL, optimizing complex joins, indexing foreign keys, and tuning Hibernate query plans.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Security &amp; RBAC Architecture</h3>
+            <p>Securing REST endpoints with Spring Security filters, Role-Based Access Control (Admin, Doctor, Receptionist, Patient), and input sanitization.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🧪</div>
+            <h3>API Testing &amp; DevOps Mindset</h3>
+            <p>Automating API verification with Postman collections, managing clean Git branching workflows, and building with Apache Maven.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section container section-padding">
+      <div class="section-header">
+        <span class="section-tag">Core Competencies</span>
+        <h2 class="section-title">Technical Skills &amp; Tech Stack</h2>
+        <p class="section-subtitle">Proficient in the complete modern Java development lifecycle.</p>
+      </div>
+
+      <!-- Skill Category Filter Buttons -->
+      <div class="skill-filters">
+        <button class="filter-btn active" data-filter="all">All Technologies</button>
+        <button class="filter-btn" data-filter="backend">Backend &amp; Frameworks</button>
+        <button class="filter-btn" data-filter="languages">Languages &amp; Core</button>
+        <button class="filter-btn" data-filter="database">Databases &amp; ORM</button>
+        <button class="filter-btn" data-filter="tools">Tools &amp; DevOps</button>
+        <button class="filter-btn" data-filter="frontend">Frontend &amp; Web</button>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid">
+        <!-- Java -->
+        <div class="skill-item" data-category="languages">
+          <div class="skill-icon-wrap">☕</div>
+          <div class="skill-info">
+            <div class="skill-name">Java (Core &amp; Advanced)</div>
+            <div class="skill-desc">OOP, Collections, Streams, Multithreading &amp; Concurrency, Exception Handling</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 95%;"></div></div>
+          </div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+
+        <!-- Python -->
+        <div class="skill-item" data-category="languages">
+          <div class="skill-icon-wrap">🐍</div>
+          <div class="skill-info">
+            <div class="skill-name">Python</div>
+            <div class="skill-desc">Scripting, Object-Oriented Logic, Algorithmic Problem Solving</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 85%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- Spring Boot -->
+        <div class="skill-item" data-category="backend">
+          <div class="skill-icon-wrap">🍃</div>
+          <div class="skill-info">
+            <div class="skill-name">Spring Boot</div>
+            <div class="skill-desc">Auto-configuration, Starters, Actuator, RestControllers, Layered Architecture</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 90%;"></div></div>
+          </div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+
+        <!-- Hibernate & JPA -->
+        <div class="skill-item" data-category="backend database">
+          <div class="skill-icon-wrap">🔄</div>
+          <div class="skill-info">
+            <div class="skill-name">Hibernate &amp; JPA</div>
+            <div class="skill-desc">Entity Relationships (@OneToMany, @ManyToMany), Caching, Fetch Strategies</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 88%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- Spring Security -->
+        <div class="skill-item" data-category="backend">
+          <div class="skill-icon-wrap">🔒</div>
+          <div class="skill-info">
+            <div class="skill-name">Spring Security</div>
+            <div class="skill-desc">Role-Based Access Control (RBAC), Authentication, Endpoint Authorization</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 82%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- RESTful APIs -->
+        <div class="skill-item" data-category="backend">
+          <div class="skill-icon-wrap">🌐</div>
+          <div class="skill-info">
+            <div class="skill-name">RESTful API Architecture</div>
+            <div class="skill-desc">HTTP Statuses, DTO Pattern, Request Validation, Error Responses</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 92%;"></div></div>
+          </div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+
+        <!-- PostgreSQL -->
+        <div class="skill-item" data-category="database">
+          <div class="skill-icon-wrap">🐘</div>
+          <div class="skill-info">
+            <div class="skill-name">PostgreSQL</div>
+            <div class="skill-desc">Complex queries, B-Tree indexing, Foreign keys, Explain Analyze</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 85%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- MySQL -->
+        <div class="skill-item" data-category="database">
+          <div class="skill-icon-wrap">🐬</div>
+          <div class="skill-info">
+            <div class="skill-name">MySQL</div>
+            <div class="skill-desc">Schema design, 3NF normalization, ACID transactions, Storage engines</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 88%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- SQL & JDBC -->
+        <div class="skill-item" data-category="database languages">
+          <div class="skill-icon-wrap">📊</div>
+          <div class="skill-info">
+            <div class="skill-name">SQL &amp; JDBC</div>
+            <div class="skill-desc">PreparedStatement, Connection Pooling, Joins, Aggregations, Transactions</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 90%;"></div></div>
+          </div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+
+        <!-- Git & GitHub -->
+        <div class="skill-item" data-category="tools">
+          <div class="skill-icon-wrap">🐙</div>
+          <div class="skill-info">
+            <div class="skill-name">Git &amp; GitHub</div>
+            <div class="skill-desc">Version control, Feature branches, Pull Requests, Merge conflict resolution</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 88%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- Postman & API Testing -->
+        <div class="skill-item" data-category="tools">
+          <div class="skill-icon-wrap">📮</div>
+          <div class="skill-info">
+            <div class="skill-name">Postman</div>
+            <div class="skill-desc">API collection testing, Environment variables, Mock servers, Assertions</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 90%;"></div></div>
+          </div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+
+        <!-- JUnit & Unit Testing -->
+        <div class="skill-item" data-category="tools backend">
+          <div class="skill-icon-wrap">🧪</div>
+          <div class="skill-info">
+            <div class="skill-name">JUnit &amp; Unit Testing</div>
+            <div class="skill-desc">Automated testing, Test coverage improvement (+30%), Mocking, Defect catch</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 88%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- Linux/Unix & Agile -->
+        <div class="skill-item" data-category="tools">
+          <div class="skill-icon-wrap">🐧</div>
+          <div class="skill-info">
+            <div class="skill-name">Linux/Unix &amp; Agile Practices</div>
+            <div class="skill-desc">Unix commands, Bash scripting, Agile methodology, Sprints, Git code reviews</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 85%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- Maven Build Tool -->
+        <div class="skill-item" data-category="tools">
+          <div class="skill-info">
+            <div class="skill-name">Apache Maven</div>
+            <div class="skill-desc">Dependency management, pom.xml configuration, Lifecycle phases, Plugins</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 85%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- OOP & Design Patterns -->
+        <div class="skill-item" data-category="languages">
+          <div class="skill-icon-wrap">📐</div>
+          <div class="skill-info">
+            <div class="skill-name">OOP &amp; Design Patterns</div>
+            <div class="skill-desc">SOLID principles, Factory, Singleton, Builder, Repository &amp; DTO patterns</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 90%;"></div></div>
+          </div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+
+        <!-- Frontend Web Tech -->
+        <div class="skill-item" data-category="frontend">
+          <div class="skill-icon-wrap">💻</div>
+          <div class="skill-info">
+            <div class="skill-name">HTML5, CSS3 &amp; JavaScript</div>
+            <div class="skill-desc">Responsive UI, DOM manipulation, Fetch API, modern CSS Grid/Flexbox</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 80%;"></div></div>
+          </div>
+          <span class="skill-badge">Proficient</span>
+        </div>
+
+        <!-- Microservices -->
+        <div class="skill-item" data-category="backend">
+          <div class="skill-icon-wrap">🧩</div>
+          <div class="skill-info">
+            <div class="skill-name">Microservices Concepts</div>
+            <div class="skill-desc">Modular decomposition, API Gateways, Decoupled domain boundaries</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 78%;"></div></div>
+          </div>
+          <span class="skill-badge">Intermediate</span>
+        </div>
+
+        <!-- IDEs & Dev Environments -->
+        <div class="skill-item" data-category="tools">
+          <div class="skill-icon-wrap">⚡</div>
+          <div class="skill-info">
+            <div class="skill-name">IntelliJ IDEA &amp; Eclipse</div>
+            <div class="skill-desc">Debugging breakpoints, Profiling, Refactoring, Spring Boot DevTools</div>
+            <div class="skill-level-bar"><div class="fill" style="width: 92%;"></div></div>
+          </div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Timeline -->
+    <section id="experience" class="timeline-section container section-padding">
+      <div class="section-header">
+        <span class="section-tag">Career Milestones</span>
+        <h2 class="section-title">Experience &amp; Education</h2>
+        <p class="section-subtitle">My journey through hands-on industry internships and computer science academics.</p>
+      </div>
+
+      <div class="timeline-wrapper">
+        <!-- Experience 1: Cognifyz -->
+        <div class="timeline-item">
+          <div class="timeline-badge work">💼</div>
+          <div class="timeline-card">
+            <div class="card-meta">
+              <span class="badge-role">Industry Internship</span>
+              <span class="time-range">Cognifyz IT Solutions Pvt. Ltd. • Remote (Aug 2026 – Sep 2026)</span>
+            </div>
+            <h3 class="role-title">Java Development Intern</h3>
+            <p class="tech-stack-used">
+              <strong>Tech Stack:</strong> Core Java, Spring Boot, REST APIs, Hibernate, JPA, MySQL, JUnit, Postman, Git
+            </p>
+            <ul class="timeline-bullets">
+              <li>Designed and developed <strong>Spring Boot</strong> services and <strong>RESTful APIs</strong> following a layered <strong>Controller–Service–Repository</strong> architecture for clean, scalable <strong>backend development</strong>.</li>
+              <li>Implemented <strong>secure authentication</strong> and <strong>authorization</strong> for API endpoints, along with <strong>global exception handling</strong> and <strong>input validation</strong> to improve <strong>API reliability</strong>.</li>
+              <li>Wrote <strong>unit tests</strong> with <strong>JUnit</strong> and validated endpoints using <strong>Postman</strong>, improving <strong>test coverage</strong> by <strong>30%</strong> and catching defects early.</li>
+              <li>Used <strong>Git</strong> for version control and collaborated with the team on <strong>code reviews</strong>, <strong>debugging</strong>, and timely delivery of assigned modules, receiving recognition for <strong>dedication</strong>, <strong>communication</strong>, and <strong>attention to detail</strong>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience 2: ITechcron -->
+        <div class="timeline-item">
+          <div class="timeline-badge work">💼</div>
+          <div class="timeline-card">
+            <div class="card-meta">
+              <span class="badge-role">Industry Internship</span>
+              <span class="time-range">ITechcron Software Solutions • Hyderabad, Telangana</span>
+            </div>
+            <h3 class="role-title">Java Backend Developer Intern</h3>
+            <p class="tech-stack-used">
+              <strong>Tech Stack:</strong> Core Java, Advanced Java, Spring Boot, Hibernate, JPA, MySQL, Git, Postman, JUnit, PostgreSQL
+            </p>
+            <ul class="timeline-bullets">
+              <li>Built and maintained <strong>RESTful APIs</strong> using <strong>Spring Boot</strong>, Hibernate, and <strong>JPA</strong>.</li>
+              <li>Optimized <strong>SQL queries</strong> and <strong>database interactions</strong>, improving application performance and <strong>data retrieval efficiency</strong>.</li>
+              <li>Implemented <strong>robust exception handling</strong>, input validation, and layered architecture to enhance <strong>application reliability</strong> and <strong>maintainability</strong>.</li>
+              <li>Tested and validated REST APIs using <strong>Postman</strong> while collaborating with the development team to <strong>debug</strong> issues and deliver high-quality <strong>backend features</strong>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education 1: B.Tech -->
+        <div class="timeline-item">
+          <div class="timeline-badge edu">🎓</div>
+          <div class="timeline-card">
+            <div class="card-meta">
+              <span class="badge-role">Undergraduate Degree</span>
+              <span class="time-range">2022 – 2025</span>
+            </div>
+            <h3 class="role-title">B.Tech – Computer Science and Engineering</h3>
+            <div class="school-name">Khaja Bandanawaz University, Kalaburgi</div>
+            <p class="school-desc">
+              Comprehensive coursework in Data Structures &amp; Algorithms, Database Management Systems (DBMS), Operating Systems, 
+              Object-Oriented Software Design, Computer Networks, and Backend System Architecture.
+            </p>
+          </div>
+        </div>
+
+        <!-- Education 2: Diploma -->
+        <div class="timeline-item">
+          <div class="timeline-badge edu">📜</div>
+          <div class="timeline-card">
+            <div class="card-meta">
+              <span class="badge-role">Polytechnic Diploma</span>
+              <span class="time-range">2018 – 2021</span>
+            </div>
+            <h3 class="role-title">Diploma</h3>
+            <div class="school-name">H.K.E Polytechnic Society</div>
+            <p class="school-desc">
+              Solid technical grounding in core computer engineering concepts, foundational programming languages, and practical systems development.
+            </p>
+          </div>
+        </div>
+
+        <!-- Education 3: SSLC -->
+        <div class="timeline-item">
+          <div class="timeline-badge edu">🏫</div>
+          <div class="timeline-card">
+            <div class="card-meta">
+              <span class="badge-role">Secondary Education</span>
+              <span class="time-range">2018</span>
+            </div>
+            <h3 class="role-title">SSLC</h3>
+            <div class="school-name">Deccan Rose English Medium School</div>
+            <p class="school-desc">
+              Strong foundational academic background emphasizing analytical thinking, mathematics, and science.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section container section-padding">
+      <div class="section-header">
+        <span class="section-tag">Featured Work</span>
+        <h2 class="section-title">Production-Grade Projects</h2>
+        <p class="section-subtitle">Real-world backend systems engineered with modern patterns, security, and performance optimizations.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Flight Reservation -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-type-badge">Enterprise Backend</div>
+            <div class="project-links">
+              <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer" class="btn-icon-link" title="View Source on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          
+          <h3 class="project-title">Flight Reservation Management System</h3>
+          <p class="project-desc">
+            A comprehensive flight booking engine handling concurrent seat availability, multi-passenger ticketing, 
+            cancellations, and transaction-safe payment verification.
+          </p>
+
+          <div class="project-metrics-row">
+            <div class="metric-pill"><span>20+</span> REST APIs</div>
+            <div class="metric-pill"><span>35%</span> Faster Retrieval</div>
+            <div class="metric-pill"><span>90%</span> Error Reduction</div>
+          </div>
+
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <strong>Layered Architecture:</strong> Strict Controller-Service-Repository separation ensuring clean separation of concerns.
+            </div>
+            <div class="highlight-item">
+              <strong>Relational Schema:</strong> 6+ normalized MySQL tables with JPA mappings (`@OneToMany`, `@ManyToOne`) ensuring referential integrity.
+            </div>
+            <div class="highlight-item">
+              <strong>Concurrency Safety:</strong> Seat lock verification and transactional boundaries preventing double-booking race conditions.
+            </div>
+          </div>
+
+          <div class="project-tech-tags">
+            <span class="tag">Java 17</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Hibernate JPA</span>
+            <span class="tag">REST API</span>
+            <span class="tag">Postman</span>
+          </div>
+
+          <div class="project-card-footer">
+            <button class="btn btn-sm btn-outline open-modal-btn" data-project="flight">
+              <span>View System Architecture</span>
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            </button>
+            <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+              <span>GitHub Repo</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: Hospital Management -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-type-badge">Healthcare &amp; Security</div>
+            <div class="project-links">
+              <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer" class="btn-icon-link" title="View Source on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          
+          <h3 class="project-title">Hospital Management System (HMS)</h3>
+          <p class="project-desc">
+            Scalable hospital backend service featuring Role-Based Access Control, doctor consultation scheduling, 
+            medical prescription storage, and high-speed billing retrieval.
+          </p>
+
+          <div class="project-metrics-row">
+            <div class="metric-pill"><span>25+</span> REST Endpoints</div>
+            <div class="metric-pill"><span>40%</span> Faster Response</div>
+            <div class="metric-pill"><span>4</span> RBAC Roles</div>
+          </div>
+
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <strong>Spring Security RBAC:</strong> Configured granular permissions for Admin, Doctor, Receptionist, and Patient roles.
+            </div>
+            <div class="highlight-item">
+              <strong>PostgreSQL Indexing:</strong> Implemented composite indexes and query profiling, slashing query latency by nearly 40%.
+            </div>
+            <div class="highlight-item">
+              <strong>Transactional Integrity:</strong> Complete isolation levels for billing payments and appointment time-slot reservations.
+            </div>
+          </div>
+
+          <div class="project-tech-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Spring Security</span>
+            <span class="tag">Hibernate</span>
+            <span class="tag">RBAC</span>
+          </div>
+
+          <div class="project-card-footer">
+            <button class="btn btn-sm btn-outline open-modal-btn" data-project="hospital">
+              <span>View System Architecture</span>
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            </button>
+            <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+              <span>GitHub Repo</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: Task Management & Algorithmic Suite -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-type-badge">Core Algorithms &amp; OOP</div>
+            <div class="project-links">
+              <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer" class="btn-icon-link" title="View Source on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          
+          <h3 class="project-title">Task Management &amp; Algorithmic Engine</h3>
+          <p class="project-desc">
+            A modular Java utility collection demonstrating advanced object-oriented design, Collections framework (List, Map, Set, Queue), 
+            and optimized algorithm patterns.
+          </p>
+
+          <div class="project-metrics-row">
+            <div class="metric-pill"><span>100%</span> Pure Java</div>
+            <div class="metric-pill"><span>O(log N)</span> Priority Queue</div>
+            <div class="metric-pill"><span>Clean</span> SOLID OOP</div>
+          </div>
+
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <strong>Collections Mastery:</strong> Built custom task schedulers with prioritized queueing, status transitions, and fast hash lookups.
+            </div>
+            <div class="highlight-item">
+              <strong>Algorithmic Modules:</strong> Implemented dynamic number pattern generators and unit conversion engines.
+            </div>
+            <div class="highlight-item">
+              <strong>Extensible Architecture:</strong> Designed with loose coupling and clear interfaces for seamless scaling.
+            </div>
+          </div>
+
+          <div class="project-tech-tags">
+            <span class="tag">Java 17</span>
+            <span class="tag">Collections Framework</span>
+            <span class="tag">Algorithms</span>
+            <span class="tag">OOP Design</span>
+          </div>
+
+          <div class="project-card-footer">
+            <button class="btn btn-sm btn-outline open-modal-btn" data-project="task">
+              <span>View Details</span>
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            </button>
+            <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+              <span>GitHub Repo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Spring Boot API Terminal / Playground -->
+    <section id="terminal" class="terminal-section container section-padding">
+      <div class="section-header">
+        <span class="section-tag">Interactive Simulation</span>
+        <h2 class="section-title">Spring Boot REST API Console</h2>
+        <p class="section-subtitle">Experience my backend architecture live. Send mock HTTP requests to my virtual Spring Boot microservice!</p>
+      </div>
+
+      <div class="terminal-container">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="terminal-server-status">
+            <span class="live-dot"></span>
+            <span>mubeen-service:8080 (v3.2.0 - UP)</span>
+          </div>
+          <div class="terminal-actions">
+            <button id="clearTerminalBtn" class="terminal-action-btn">Clear</button>
+          </div>
+        </div>
+
+        <!-- Quick API Buttons -->
+        <div class="api-shortcuts">
+          <span class="shortcuts-label">Click to Execute:</span>
+          <button class="api-btn" data-endpoint="/api/v1/profile"><span class="method get">GET</span> /profile</button>
+          <button class="api-btn" data-endpoint="/api/v1/skills/backend"><span class="method get">GET</span> /skills/backend</button>
+          <button class="api-btn" data-endpoint="/api/v1/projects/flight-system"><span class="method get">GET</span> /projects/flight-system</button>
+          <button class="api-btn" data-endpoint="/api/v1/projects/hospital-system"><span class="method get">GET</span> /projects/hospital-system</button>
+          <button class="api-btn" data-endpoint="/api/v1/certifications"><span class="method get">GET</span> /certifications</button>
+          <button class="api-btn" data-endpoint="/api/v1/hire-status"><span class="method get">GET</span> /hire-status</button>
+        </div>
+
+        <div class="terminal-screen" id="terminalScreen">
+          <div class="terminal-line welcome">
+            <span class="prompt">$</span> Welcome to Mubeen Shaik's Spring Boot REST Client Simulator. Click any API endpoint above or type a command below.
+          </div>
+        </div>
+
+        <div class="terminal-input-bar">
+          <span class="terminal-prompt-sym">curl -X GET</span>
+          <input type="text" id="terminalInput" placeholder="/api/v1/profile" autocomplete="off" spellcheck="false">
+          <button id="executeCurlBtn" class="btn btn-primary btn-sm">Send Request</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="cert-section container section-padding">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications &amp; Accreditations</h2>
+        <p class="section-subtitle">Verified technical proficiencies in enterprise development and generative AI.</p>
+      </div>
+
+      <div class="cert-grid">
+        <!-- Cert 1: Cognifyz Internship -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">📜</div>
+          <div class="cert-body">
+            <span class="cert-issuer">Cognifyz IT Solutions Pvt. Ltd.</span>
+            <h3 class="cert-name">Internship Completion Certificate (Software Development)</h3>
+            <p class="cert-desc">
+              Successfully completed software development internship engineering modular Spring Boot services, RESTful APIs, 
+              JPA repositories, and comprehensive JUnit unit testing.
+            </p>
+            <div class="cert-tags">
+              <span>Spring Boot</span>
+              <span>REST APIs</span>
+              <span>JUnit</span>
+              <span>Hibernate JPA</span>
+              <span>Git</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cert 2: QuizOff 2026 -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">🏆</div>
+          <div class="cert-body">
+            <span class="cert-issuer">Unstop &amp; CampusCrew</span>
+            <h3 class="cert-name">QuizOff 2026 — India's Biggest AI Quiz</h3>
+            <p class="cert-desc">
+              Recognized in India's premier nationwide artificial intelligence and computer science challenge, showcasing analytical thinking and modern AI proficiency.
+            </p>
+            <div class="cert-tags">
+              <span>Artificial Intelligence</span>
+              <span>Problem Solving</span>
+              <span>National Assessment</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cert 3: JSpider Full Stack -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">☕</div>
+          <div class="cert-body">
+            <span class="cert-issuer">JSpider</span>
+            <h3 class="cert-name">Java Full Stack Development</h3>
+            <p class="cert-desc">
+              Rigorous industry training covering Core &amp; Advanced Java, Spring Boot, Hibernate JPA, SQL, 
+              REST APIs, Microservices, and web technologies.
+            </p>
+            <div class="cert-tags">
+              <span>Core Java</span>
+              <span>Spring Boot</span>
+              <span>Hibernate JPA</span>
+              <span>SQL</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cert 4: Claude AI 101 -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">🤖</div>
+          <div class="cert-body">
+            <span class="cert-issuer">Anthropic</span>
+            <h3 class="cert-name">Claude AI 101</h3>
+            <p class="cert-desc">
+              Certification covering large language model fundamentals, conversational prompt engineering, 
+              evaluation methodologies, and AI integration into modern software workflows.
+            </p>
+            <div class="cert-tags">
+              <span>LLM Concepts</span>
+              <span>Prompt Design</span>
+              <span>AI Evaluation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Viewer & Download Callout -->
+    <section class="resume-cta-section container">
+      <div class="resume-card-box">
+        <div class="resume-card-content">
+          <div class="badge-tag">ATS-Optimized Resume</div>
+          <h2>Ready to Review My Full Qualifications?</h2>
+          <p>
+            Download my updated, recruiter-ready ATS-compliant resume containing complete educational credentials, 
+            internship accomplishments, project metrics, and technical expertise.
+          </p>
+          <div class="resume-button-group">
+            <a href="assets/Mubeen_Shaik_Resume.pdf" download="Mubeen_Shaik_Resume.pdf" class="btn btn-primary">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download Resume (PDF)</span>
+            </a>
+            <a href="https://linkedin.com/in/mubeen-shaik-a02717275" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>View LinkedIn Profile</span>
+            </a>
+          </div>
+        </div>
+        <div class="resume-card-preview" aria-hidden="true">
+          <div class="paper-preview">
+            <div class="paper-line h1"></div>
+            <div class="paper-line h2"></div>
+            <div class="paper-line p"></div>
+            <div class="paper-line p"></div>
+            <div class="paper-divider"></div>
+            <div class="paper-line h2"></div>
+            <div class="paper-line p"></div>
+            <div class="paper-line p"></div>
+            <div class="paper-badge">Java • Spring Boot • SQL</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section container section-padding">
+      <div class="section-header">
+        <span class="section-tag">Let's Talk</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Interested in collaborating or hiring? Reach out directly or drop a message below.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+          <p>
+            I am currently open to immediate employment opportunities, internships, and full-time software engineering roles. 
+            Open to on-site, hybrid, or remote positions.
+          </p>
+
+          <div class="contact-card-list">
+            <!-- Email -->
+            <div class="contact-card copy-trigger" data-copy="mdmubeenmubeen740@gmail.com" title="Click to copy email">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="label">Email Address</span>
+                <span class="val">mdmubeenmubeen740@gmail.com</span>
+              </div>
+              <span class="copy-badge">Copy</span>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-card copy-trigger" data-copy="+918867046434" title="Click to copy phone number">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="label">Phone / WhatsApp</span>
+                <span class="val">+91-8867046434</span>
+              </div>
+              <span class="copy-badge">Copy</span>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="label">Location</span>
+                <span class="val">Bangalore, Karnataka, India</span>
+              </div>
+            </div>
+
+            <!-- Socials -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="label">Profiles</span>
+                <div class="link-row">
+                  <a href="https://linkedin.com/in/mubeen-shaik-a02717275" target="_blank" rel="noopener noreferrer">LinkedIn</a> • 
+                  <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer">GitHub</a> • 
+                  <a href="https://wa.me/918867046434" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required placeholder="e.g. Rahul Sharma">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email *</label>
+              <input type="email" id="email" name="email" required placeholder="rahul@company.com">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" name="subject" required placeholder="Job Opportunity / Project Inquiry">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Hi Mubeen, I reviewed your profile and projects and would love to discuss an opportunity..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              <span>Send Message</span>
+            </button>
+            <div id="formFeedback" class="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#hero" class="nav-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-name">Mubeen</span>
+          <span class="logo-accent">.dev</span>
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">Crafting scalable Java &amp; Spring Boot architectures with passion.</p>
+      </div>
+
+      <div class="footer-center">
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-social-icons">
+          <a href="https://linkedin.com/in/mubeen-shaik-a02717275" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://github.com/mubeenshaik740/projects" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="mailto:mdmubeenmubeen740@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+        </div>
+        <p class="copyright">© 2026 Mubeen Shaik. Built with clean code &amp; precision.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for Project Details -->
+  <div id="projectModal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header">
+        <h3 id="modalTitle">Project Architecture Breakdown</h3>
+        <button id="closeModalBtn" class="modal-close" aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div class="modal-footer">
+        <button id="modalCloseAction" class="btn btn-outline btn-sm">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Scroll to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
